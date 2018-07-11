@@ -1,9 +1,0 @@
-language: python
-cache: pip
-python:
-  - 3.6
-before_install:
-  - chmod u+x ./deploy.sh
-install:
-  - pip install mkdocs
-script: ./deploy.sh
